@@ -160,4 +160,4 @@ iface = gr.Interface(
     description="Degree Level + Experience + Academics + Optional Exams"
 )
 
-iface.launch(share=True)
+iface.launch(server_name="0.0.0.0", server_port=10000)
