@@ -7,7 +7,7 @@ import gradio as gr
 # -----------------------------
 # LOAD DATASET
 # -----------------------------
-data = pd.read_csv("/content/Admission_Predict_Final_With_Degree.csv")
+data = pd.read_csv("Admission_Predict_Final_With_Degree.csv")
 data.columns = data.columns.str.strip()
 
 # Remove Program_Competitiveness if exists
